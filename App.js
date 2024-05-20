@@ -19,7 +19,7 @@ export default function App() {
       <NavigationContainer>
         <Stack.Navigator initialRouteName={welcomePage} screenOptions={{ headerShown: false }}>
           <Stack.Screen name={welcomePage} component={Welcome} />
-          <Stack.Screen name={tabbar} component={TabbarNav} />
+          <Stack.Screen name={tabbar} component={TabbarNav} options={{ gestureEnabled: false}}/>
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>
