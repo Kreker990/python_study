@@ -12,7 +12,7 @@ export const colors = {
     black: '#000000',
     blue: 'rgba(66, 103, 178,1)',
     blue25: 'rgba(66, 103, 178,0.25)',
-    phon: '#F7F8FA'
+    phon: '#bfe1ff'
 }
 
 export const block = StyleSheet.create({
